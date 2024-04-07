@@ -57,11 +57,13 @@ body {
 }
 
 .hero-content {
-    width: 100%;
-    max-width: 1000px;
-    text-align: center;
-    padding: 24px;
-    margin: 0 auto;
+    .parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      }
+        
 }
 
 .aboutme-container {
