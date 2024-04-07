@@ -57,7 +57,9 @@ body {
 }
 
 .hero-content .parent {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .child {
@@ -189,7 +191,7 @@ a:hover, a:active {
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #74b44a;
+    border:  #74b44a;
 }
 
 .btn, .btn:visited  {
